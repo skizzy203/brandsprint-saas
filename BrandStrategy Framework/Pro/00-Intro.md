@@ -22,6 +22,7 @@ Each section contributes to a living Context Profile, which the AI Copilot refer
 ## Framework Order
 
 ### 01. Personal Branding
+
 - 01.1 Personal Foundations
 - 01.2 Personal Essence
 - 01.3 Target Audience
@@ -33,6 +34,7 @@ Each section contributes to a living Context Profile, which the AI Copilot refer
 - 01.9 Visual Appearance
 
 ### 02. Business Strategy
+
 - 02.1 Business Fundamentals
 - 02.2 Brand DNA
 - 02.3 Target Market
@@ -45,6 +47,7 @@ Each section contributes to a living Context Profile, which the AI Copilot refer
 - 02.10 Visual Identity
 
 ### 03. Marketing Strategy
+
 - 03.1 Marketing Goals
 - 03.2 Purchasing Behaviors
 - 03.3 Journey Mapping
@@ -55,6 +58,7 @@ Each section contributes to a living Context Profile, which the AI Copilot refer
 - 03.8 Opportunities & Action
 
 ### 04. Offer Strategy
+
 - 04.1 Offer Goals
 - 04.2 Customer Insight
 - 04.3 Product Exploration
@@ -64,6 +68,7 @@ Each section contributes to a living Context Profile, which the AI Copilot refer
 - 04.7 Opportunities & Action
 
 ### 05. Journey Strategy
+
 - 05.1 Journey Goals
 - 05.2 Pathway Analysis
 - 05.3 Target Motivations
@@ -73,6 +78,7 @@ Each section contributes to a living Context Profile, which the AI Copilot refer
 - 05.7 Opportunities & Action
 
 ### 06. Funnel Strategy
+
 - 06.1 Funnel Fundamentals
 - 06.2 Lead Hook
 - 06.3 Sales Copy
@@ -83,6 +89,7 @@ Each section contributes to a living Context Profile, which the AI Copilot refer
 - 06.8 Opportunities & Action
 
 ### 07. Content Strategy
+
 - 07.1 Content Fundamentals
 - 07.2 Content Ecosystem
 - 07.3 Content Development
@@ -92,6 +99,7 @@ Each section contributes to a living Context Profile, which the AI Copilot refer
 - 07.7 Opportunities & Action
 
 ### 08. Brand Audit
+
 - 08.1 Business Model
 - 08.2 Target Audience
 - 08.3 Competitor Analysis
@@ -121,12 +129,15 @@ Each section includes core questions, AI-guided insights, and an "Opportunities 
 ## Platform Roadmap
 
 ### Short Term
+
 - MVP with guided framework, workspace, and export tools
 
 ### Mid-Term
+
 - Real-time Notion-like editor and design brief builder
 
 ### Long-Term
+
 - SaaS suite including naming, campaign, and funnel AI tools
 
 ## Plaintext Sitemap
@@ -250,4 +261,4 @@ Home (Dashboard)
 │   ├── Prompt & Response Examples
 │   ├── Sample Brand Strategy Projects
 │   └── Help, FAQ, and Tutorials
-``` 
+```
