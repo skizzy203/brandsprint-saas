@@ -1,0 +1,163 @@
+Once UI theme configurations settings
+
+### cofig.js ###
+
+const style = {
+  theme: "dark",
+  brand: "indigo",
+  accent: "violet",
+  neutral: "slate",
+  border: "conservative",
+  solid: "contrast",
+  solid-style: "flat",
+  surface: "translucent",
+  transition: "all",
+}
+
+
+### scheme.scss ###
+
+--scheme-brand-100: #1e005f;
+--scheme-brand-200: #1e005f;
+--scheme-brand-300: #1700d6;
+--scheme-brand-400: #0039ff;
+--scheme-brand-500: #1f6cff;
+--scheme-brand-600: #4398ff;
+--scheme-brand-600-10: rgba(67,152,255,0.1);
+--scheme-brand-600-30: rgba(67,152,255,0.3);
+--scheme-brand-600-50: rgba(67,152,255,0.5);
+--scheme-brand-700: #62bcff;
+--scheme-brand-800: #81e0ff;
+--scheme-brand-900: #8eefff;
+--scheme-brand-1000: #8eefff;
+--scheme-brand-1100: #8eefff;
+--scheme-brand-1200: #8eefff;
+
+--scheme-accent-100: #0a002d;
+--scheme-accent-200: #03005a;
+--scheme-accent-300: #123797;
+--scheme-accent-400: #2c56b7;
+--scheme-accent-500: #4571d6;
+--scheme-accent-600: #6494fb;
+--scheme-accent-600-10: rgba(100,148,251,0.1);
+--scheme-accent-600-30: rgba(100,148,251,0.3);
+--scheme-accent-600-50: rgba(100,148,251,0.5);
+--scheme-accent-700: #85b7ff;
+--scheme-accent-800: #a7dbff;
+--scheme-accent-900: #b4e9ff;
+--scheme-accent-1000: #c4faff;
+--scheme-accent-1100: #c7fdff;
+--scheme-accent-1200: #c7fdff;
+
+--scheme-neutral-100: #0a002d;
+--scheme-neutral-200: #03005a;
+--scheme-neutral-300: #123797;
+--scheme-neutral-400: #2c56b7;
+--scheme-neutral-500: #4571d6;
+--scheme-neutral-600: #6494fb;
+--scheme-neutral-600-10: rgba(100,148,251,0.1);
+--scheme-neutral-600-30: rgba(100,148,251,0.3);
+--scheme-neutral-600-50: rgba(100,148,251,0.5);
+--scheme-neutral-700: #85b7ff;
+--scheme-neutral-800: #a7dbff;
+--scheme-neutral-900: #b4e9ff;
+--scheme-neutral-1000: #c4faff;
+--scheme-neutral-1100: #c7fdff;
+--scheme-neutral-1200: #c7fdff;
+
+### layout.tsx ###
+
+import { Inter } from 'next/font/google';
+
+const primary = Inter({
+    variable: '--font-primary',
+    subsets: ['latin'],
+    display: 'swap'
+});
+
+
+
+
+---- part 2 ----
+
+### cofig.js ###
+
+const style = {
+  theme: "dark",
+  brand: "green",
+  accent: "aqua",
+  neutral: "gray",
+  border: "rounded",
+  solid: "contrast",
+  solid-style: "flat",
+  surface: "filled",
+  transition: "all",
+}
+
+### scheme.scss ###
+
+--scheme-brand-100: #0a002d;
+--scheme-brand-200: #03005a;
+--scheme-brand-300: #123797;
+--scheme-brand-400: #2c56b7;
+--scheme-brand-500: #4571d6;
+--scheme-brand-600: #6494fb;
+--scheme-brand-600-10: rgba(100,148,251,0.1);
+--scheme-brand-600-30: rgba(100,148,251,0.3);
+--scheme-brand-600-50: rgba(100,148,251,0.5);
+--scheme-brand-700: #85b7ff;
+--scheme-brand-800: #a7dbff;
+--scheme-brand-900: #b4e9ff;
+--scheme-brand-1000: #c4faff;
+--scheme-brand-1100: #c7fdff;
+--scheme-brand-1200: #c7fdff;
+
+--scheme-accent-100: #0a002d;
+--scheme-accent-200: #03005a;
+--scheme-accent-300: #123797;
+--scheme-accent-400: #2c56b7;
+--scheme-accent-500: #4571d6;
+--scheme-accent-600: #6494fb;
+--scheme-accent-600-10: rgba(100,148,251,0.1);
+--scheme-accent-600-30: rgba(100,148,251,0.3);
+--scheme-accent-600-50: rgba(100,148,251,0.5);
+--scheme-accent-700: #85b7ff;
+--scheme-accent-800: #a7dbff;
+--scheme-accent-900: #b4e9ff;
+--scheme-accent-1000: #c4faff;
+--scheme-accent-1100: #c7fdff;
+--scheme-accent-1200: #c7fdff;
+
+--scheme-neutral-100: #1e005f;
+--scheme-neutral-200: #1e005f;
+--scheme-neutral-300: #1700d6;
+--scheme-neutral-400: #0039ff;
+--scheme-neutral-500: #1f6cff;
+--scheme-neutral-600: #4398ff;
+--scheme-neutral-600-10: rgba(67,152,255,0.1);
+--scheme-neutral-600-30: rgba(67,152,255,0.3);
+--scheme-neutral-600-50: rgba(67,152,255,0.5);
+--scheme-neutral-700: #62bcff;
+--scheme-neutral-800: #81e0ff;
+--scheme-neutral-900: #8eefff;
+--scheme-neutral-1000: #8eefff;
+--scheme-neutral-1100: #8eefff;
+--scheme-neutral-1200: #8eefff;
+
+### layout.tsx ###
+
+import { Inter } from 'next/font/google';
+import { Space_Grotesk } from 'next/font/google';
+
+const primary = Inter({
+    variable: '--font-primary',
+    subsets: ['latin'],
+    display: 'swap'
+});
+
+const tertiary = Space_Grotesk({
+    variable: '--font-tertiary',
+    subsets: ['latin'],
+    display: 'swap'
+});
+
